@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<Group xmlns:fx="http://javafx.com/fxml"
+       fx:controller="com.example.jigsaw.ServerStart">
+    <Label fx:id="time" translateX="250" translateY="150"/>
+    <Label fx:id="seconds" translateX="150" translateY="200"/>
+    <TextField fx:id="secs" translateX="250" translateY="200"/>
+    <Label fx:id="minutes" translateX="150" translateY="250"/>
+    <TextField fx:id="mins" translateX="250" translateY="250"/>
+    <Button fx:id="start" onAction="#init" translateX="440" translateY="400"/>
+    <Button fx:id="friend" onAction="#friend" translateX="270" translateY="400"/>
+    <Label fx:id="started" translateX="260" translateY="300"/>
+</Group>
